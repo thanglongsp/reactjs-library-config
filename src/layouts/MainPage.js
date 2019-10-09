@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { getScreenHeight, getScreenWidth } from "../configs/constans/ScreenSize";
 
 export class MainPage extends Component {
     render() {
@@ -6,7 +7,7 @@ export class MainPage extends Component {
             <div>
                 { this.props.children }
                 <div>
-                    <p className="test">ccc</p>
+                    <p style={{ width: getScreenWidth(0.5), background: "red"}}>ccc</p>
                 </div>
             </div>
         );
