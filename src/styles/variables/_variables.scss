@@ -1,0 +1,5 @@
+$widthScreen: 100vw;
+$heightScreen: 100vh;
+@function getWidthScreen($number: 1) {
+  @return $widthScreen*$number;
+}
