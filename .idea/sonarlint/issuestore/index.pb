@@ -1,10 +1,6 @@
 
-?
-src/App.test.js,9\2\923703ced91ac38943d37930d9d27a7ebe8f01ad
 <
 src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
-=
-src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 :
 
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
@@ -14,9 +10,31 @@ src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
 src/Head.js,4\e\4ed5ef2a9a2f98993deb01fe609b0d069a7142da
 <
 src/logo.svg,6\d\6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc
-=
-src/Router.js,5\e\5e8ddba814c3eac71a3491f62c12f2a9102f3e77
-A
-src/MainScreen.js,7\6\7653e29c893488c21ca896fbce0155accd0086c7
-;
-src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+E
+src/layouts/Header.js,b\e\bed162eac30561f0bbeb6a6cb9c09aec70dc277f
+I
+src/pages/pages1/Page1.js,3\3\332ce1fd052e6fc1fa3c990f4cc5bf5b8e4e9f97
+K
+src/pages/pages1/Style.scss,e\a\ea252123c831b071fec3e45279dbf7fdbe14b26d
+E
+src/routes/Routers.js,7\d\7de5ea75a84fc2855c209fcc4b3461911ed17e0c
+D
+src/serviceWorker.js,9\2\920ab6ab4a57ee20a36df4e3e2e73b70f9969d14
+P
+ src/styles/variables/_fonts.scss,2\d\2dc3b964407989c6ec3bc2cf408e0a2718e94fb4
+Q
+!src/styles/variables/_colors.scss,3\2\32d78a0312d700f60f7b430fa496ecdf99ffb674
+V
+&src/styles/variables/_responsives.scss,d\e\de1c4d99c06d71dec0e72d9b8b05a584429ab6e7
+E
+src/layouts/Footer.js,d\9\d995af0b79b4a24c864a167a6649dfab0f2aeb00
+F
+src/styles/Styles.scss,c\c\ccea9af5014e9bb4ad97358190825e3e8b2aef83
+T
+$src/styles/variables/_variables.scss,e\0\e0ff01bd481030f15fb64b2a8230d4cbb3f0c208
+D
+src/styles/_App.scss,6\e\6e4763d9a641915abef34888f5898a1a8efef40b
+G
+src/layouts/MainPage.js,4\2\42e555b9470feeb9d0cc893840cba538f37887c6
+R
+"src/configs/constans/ScreenSize.js,5\d\5d0e4c275c6574071fe4b3121d851c79dc3c746e
