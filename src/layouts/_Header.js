@@ -3,7 +3,7 @@ import Menu from "antd/es/menu";
 import { Layout } from 'antd';
 const { Header } = Layout;
 
-class Head extends React.Component {
+class _Header extends React.Component {
     render() {
         return(
             <Header>
@@ -23,4 +23,4 @@ class Head extends React.Component {
     }
 }
 
-export default Head
+export default _Header

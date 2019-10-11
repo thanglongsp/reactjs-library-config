@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1. lodash : thư viện dùng để xử lý mảng, chuỗi, ...
+2. Moment : thư viện dùng để xử lý thời gian
+3. Ant design : thư viện dùng để xử lý các button, icon ...
+4. fontawesome : sử dụng icon, ...
+5. 

@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { getScreenHeight, getScreenWidth } from "../configs/constans/ScreenSize";
 import connect from "react-redux/es/connect/connect";
 import {test} from "../reduxs/actions/Action";
 class MainPage extends Component {
@@ -10,9 +9,8 @@ class MainPage extends Component {
     render() {
         return(
             <div>
-                { this.props.children }
                 <div>
-                    <p style={{ width: getScreenWidth(0.5)}}>{ this.props.name }</p>
+                    { this.props.children }
                 </div>
             </div>
         );

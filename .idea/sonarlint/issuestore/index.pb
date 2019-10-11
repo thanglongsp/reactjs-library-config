@@ -44,5 +44,9 @@ J
 src/reduxs/stores/Store.js,3\c\3c6ea99264809c8c14a66897e68992460c15548f
 L
 src/reduxs/actions/Action.js,d\3\d33fe00b7ffc5d427bb5579574a9d610f9da029f
-M
-src/reduxs/reduces/Reducer.js,e\2\e21c9b1d33596a2faca1eb0b15a9a7668b43d463
+K
+src/reduxs/reduces/index.js,4\4\44166f996f795d2fc89f3f571ba246dfd1ad4729
+N
+src/reduxs/reduces/Reducer1.js,8\4\84af99f9fb5f8c83f5d48f3dd522998fdd962ae3
+I
+src/pages/longin/Login.js,8\1\81568b687101836118537e5551192be5a1552b8d
