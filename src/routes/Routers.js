@@ -5,9 +5,9 @@ import {
     Route
 } from "react-router-dom";
 import {Login} from "../pages/longin/Login";
-import _Header from "../layouts/_Header";
-import _Footer from "../layouts/_Footer";
-import {_Menu} from "../layouts/_Menu";
+import _Header from "../layouts/header/_Header";
+import _Footer from "../layouts/footer/_Footer";
+import {_Menu} from "../layouts/menu/_Menu";
 
 export class Routes extends Component {
     render() {
@@ -17,9 +17,16 @@ export class Routes extends Component {
                     <Route exact path="/authen">
                     </Route>
                     <Route exact path="/home">
-                        <_Header/>
-                        <_Menu/>
-                        <_Footer/>
+                        {/*<_Header/>*/}
+                        {/*<div className="bound-main">*/}
+                        {/*    <div className="bound-menu">*/}
+                        {/*        <_Menu/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="bound-content">*/}
+                        {/*        <p>thanglongsp</p>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        {/*<_Footer/>*/}
                     </Route>
                     <Route exact path="/login">
                         <Login />

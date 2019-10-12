@@ -1,0 +1,12 @@
+@import "../../styles/variables/variables";
+@import "../../styles/variables/colors";
+.menu {
+  margin-top: getHeightScreen(0.09);
+  min-height: getHeightScreen(1) !important;
+}
+
+.bound-menu {
+  section {
+    background: $Khaki !important;
+  }
+}

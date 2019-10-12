@@ -4,18 +4,10 @@
 :
 
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
-;
-src/Foot.js,c\b\cbc1e118d0a73b4c4c7fc57e593bd3d8e85385f0
-;
-src/Head.js,4\e\4ed5ef2a9a2f98993deb01fe609b0d069a7142da
 <
 src/logo.svg,6\d\6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc
-E
-src/layouts/Header.js,b\e\bed162eac30561f0bbeb6a6cb9c09aec70dc277f
 I
 src/pages/pages1/Page1.js,3\3\332ce1fd052e6fc1fa3c990f4cc5bf5b8e4e9f97
-K
-src/pages/pages1/Style.scss,e\a\ea252123c831b071fec3e45279dbf7fdbe14b26d
 E
 src/routes/Routers.js,7\d\7de5ea75a84fc2855c209fcc4b3461911ed17e0c
 D
@@ -26,8 +18,6 @@ Q
 !src/styles/variables/_colors.scss,3\2\32d78a0312d700f60f7b430fa496ecdf99ffb674
 V
 &src/styles/variables/_responsives.scss,d\e\de1c4d99c06d71dec0e72d9b8b05a584429ab6e7
-E
-src/layouts/Footer.js,d\9\d995af0b79b4a24c864a167a6649dfab0f2aeb00
 F
 src/styles/Styles.scss,c\c\ccea9af5014e9bb4ad97358190825e3e8b2aef83
 T
@@ -50,3 +40,13 @@ N
 src/reduxs/reduces/Reducer1.js,8\4\84af99f9fb5f8c83f5d48f3dd522998fdd962ae3
 I
 src/pages/longin/Login.js,8\1\81568b687101836118537e5551192be5a1552b8d
+L
+src/pages/pages1/_page1.scss,6\5\6599e775c4687e59f162cc354492e03e165f9bd2
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+src/layouts/_Header.js,7\2\72c38b8a902659e354fc87ba902bb05e67d24324
+F
+src/layouts/_Footer.js,4\f\4ff4105b603439d3228d0f98f8f1954314613371
+D
+src/layouts/_Menu.js,8\a\8a44677c88966f107b265dac2792093283b64ac8
