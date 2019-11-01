@@ -1,0 +1,42 @@
+@import "../styles/variables/colors";
+
+$header-height: 20vh;
+$header-width: 100vw;
+
+$sidebar-height: 80vh;
+$sidebar-width: 20vw;
+
+$main-height: 80vh;
+$main-width: null;
+
+$footer-height: 10vh;
+$footer-width: 80vw;
+
+.bts-bound {
+  overflow-x: hidden;
+}
+.bts-header {
+  height: $header-height;
+  background: $Yellow
+}
+
+.bts-main {
+  height: $main-height;
+}
+
+.bts-sidebar {
+  width: 100%;
+  height: 100%;
+  background: $Brown;
+}
+
+.bts-content {
+  width: 100%;
+  height: 100%;
+  background: $Green;
+}
+
+.bts-footer {
+  height: $footer-height;
+  background: $YellowGreen;
+}

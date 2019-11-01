@@ -1,0 +1,48 @@
+@import "../styles/variables/colors";
+
+$header-height: 20vh;
+$header-width: 100vw;
+
+$sidebar-height: 80vh;
+$sidebar-width: 20vw;
+
+$main-height: calc(80vh*0.9);
+$main-width: null;
+
+$footer-height: calc(80vh*0.1);
+$footer-width: 80vw;
+
+.header {
+  grid-area: header;
+  height: $header-height;
+  background: $red !important;
+}
+.sidebar {
+  grid-area: sidebar;
+  width: $sidebar-width;
+  min-height: $sidebar-height;
+  background: $Yellow !important;
+}
+
+.main {
+  grid-area: main;
+  width: 80vw;
+  min-height: $main-height;
+  background: $DarkGrey !important;
+}
+
+.footer {
+  grid-area: footer;
+  width: $footer-width;
+  height: $footer-height;
+  background: $Green !important;
+}
+
+.grid-container-layout {
+  display: grid;
+  grid-template-areas:
+          'header header'
+          'sidebar main'
+          'sidebar footer';
+  overflow: hidden;
+}

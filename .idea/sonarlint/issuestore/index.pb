@@ -24,8 +24,6 @@ T
 $src/styles/variables/_variables.scss,e\0\e0ff01bd481030f15fb64b2a8230d4cbb3f0c208
 D
 src/styles/_App.scss,6\e\6e4763d9a641915abef34888f5898a1a8efef40b
-G
-src/layouts/MainPage.js,4\2\42e555b9470feeb9d0cc893840cba538f37887c6
 R
 "src/configs/constans/ScreenSize.js,5\d\5d0e4c275c6574071fe4b3121d851c79dc3c746e
 V
@@ -44,9 +42,25 @@ L
 src/pages/pages1/_page1.scss,6\5\6599e775c4687e59f162cc354492e03e165f9bd2
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-F
-src/layouts/_Header.js,7\2\72c38b8a902659e354fc87ba902bb05e67d24324
-F
-src/layouts/_Footer.js,4\f\4ff4105b603439d3228d0f98f8f1954314613371
-D
-src/layouts/_Menu.js,8\a\8a44677c88966f107b265dac2792093283b64ac8
+M
+src/layouts/header/_Header.js,5\4\549886cf4a330abece83b142819950326251b8c9
+O
+src/layouts/header/_Header.scss,4\e\4e0f6652baaed31dc7f88fb99e561e9b4cdf724c
+K
+src/layouts/menu/_Menu.scss,3\d\3dbc6b8ba5672c8887ef98fae0a87d43930250af
+O
+src/layouts/footer/_Footer.scss,d\5\d58d93a4fc8c22808f59c4ff977c4a0a9c6ee057
+M
+src/layouts/footer/_Footer.js,5\c\5cb5b1579659cc4b282a1bb630479ee6cbf77eb7
+I
+src/layouts/menu/_Menu.js,4\6\46a1beba9b15f514f66d1f5706e7690a77f2f67a
+G
+src/routes/_Routes.scss,6\c\6cadfce3a14e94ac42851c0a4f98181104e1b437
+S
+#src/layouts/mainpage/_MainPage.scss,1\0\10d3fbd281b0d2f47e6dd78bccb28784e77955ed
+P
+ src/layouts/mainpage/MainPage.js,2\5\25659b7e58beb63f71e1be349e4a9d1c64593006
+G
+src/styles/_Layout.scss,2\4\242284a221ffc61abf4b462cc957d7ad457322ae
+M
+src/grid-layout/GridLayout.js,1\f\1f8241d96b36bd8a29a7d52c462a5d390c711ebf

@@ -15,6 +15,10 @@ export class MainPage extends Component {
         });
     };
 
+    showPopup = () => {
+        setTimeout(() => { return <p style={{ zIndex: 1 }}>cccc</p> }, 3000);
+    }
+
     render() {
         return (
             <Layout style={{ height: window.innerHeight }}>
@@ -50,9 +54,10 @@ export class MainPage extends Component {
                             background: '#fff',
                             minHeight: 280,
                             color: 'red',
+                            zIndex: 1
                         }}
                     >
-                        xxx
+                        { this.showPopup() }
                     </Content>
                 </Layout>
             </Layout>

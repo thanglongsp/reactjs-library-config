@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {
     BrowserRouter as Router,
+    useHistory as History,
     Switch,
     Route
 } from "react-router-dom";
@@ -8,11 +9,13 @@ import {Login} from "../pages/longin/Login";
 import _Header from "../layouts/header/_Header";
 import _Footer from "../layouts/footer/_Footer";
 import {_Menu} from "../layouts/menu/_Menu";
+import {GridLayout} from "../grid-layout/GridLayout";
+import {BootstrapLayout} from "../bootstrap-layout/BootstrapLayout";
 
 export class Routes extends Component {
     render() {
         return(
-            <Router>
+            <Router history={ History }>
                 <Switch>
                     <Route exact path="/authen">
                     </Route>
@@ -31,6 +34,12 @@ export class Routes extends Component {
                     <Route exact path="/login">
                         <Login />
                     </Route>
+                    <Router exact path="/grid-layout">
+                        <GridLayout />
+                    </Router>
+                    <Router exact path="/bootstrap-layout">
+                        <BootstrapLayout />
+                    </Router>
                 </Switch>
             </Router>
         );
