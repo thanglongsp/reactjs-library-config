@@ -60,7 +60,15 @@ S
 #src/layouts/mainpage/_MainPage.scss,1\0\10d3fbd281b0d2f47e6dd78bccb28784e77955ed
 P
  src/layouts/mainpage/MainPage.js,2\5\25659b7e58beb63f71e1be349e4a9d1c64593006
-G
-src/styles/_Layout.scss,2\4\242284a221ffc61abf4b462cc957d7ad457322ae
 M
 src/grid-layout/GridLayout.js,1\f\1f8241d96b36bd8a29a7d52c462a5d390c711ebf
+_
+/src/styles/bootstrap-4.3.1-dist/js/bootstrap.js,6\5\65293a7eae64bb9c6e0ad0e3593ed528e6c0542e
+j
+:src/styles/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css,0\f\0f847700c1b3a5c048962c3747d0267cb5a50a7e
+Z
+*src/bootstrap-layout/_BootstrapLayout.scss,c\2\c2ccbf3f9382afd16c7a51b1a5fc8b829951ca55
+W
+'src/bootstrap-layout/BootstrapLayout.js,6\5\653575bf03383b9bdba261a9d8549b7f9d2e21da
+P
+ src/grid-layout/_GridLayout.scss,7\2\72e52d95fb2a6265167880d92f637994cca42d5e

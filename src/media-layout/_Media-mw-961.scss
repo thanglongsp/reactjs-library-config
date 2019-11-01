@@ -1,0 +1,6 @@
+@import "../styles/variables/colors";
+@media (min-width: 961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .med-bound {
+    background: $Blue;
+  }
+}

@@ -13,36 +13,45 @@ $footer-height: calc(80vh*0.1);
 $footer-width: 80vw;
 
 .header {
+  position: sticky;
+  top: 0;
   grid-area: header;
-  height: $header-height;
+  min-height: $header-height;
   background: $red !important;
 }
 .sidebar {
   grid-area: sidebar;
-  width: $sidebar-width;
+  min-width: $sidebar-width;
   min-height: $sidebar-height;
   background: $Yellow !important;
 }
 
 .main {
   grid-area: main;
-  width: 80vw;
+  min-width: 80vw;
   min-height: $main-height;
   background: $DarkGrey !important;
+  position: relative;
+  left: 0;
+  z-index: -1;
 }
 
 .footer {
   grid-area: footer;
-  width: $footer-width;
-  height: $footer-height;
+  min-width: $footer-width;
+  min-height: $footer-height;
   background: $Green !important;
+  position: relative;
+  left: 0;
 }
 
 .grid-container-layout {
+  position: relative;
+  height: 100vh;
   display: grid;
   grid-template-areas:
           'header header'
           'sidebar main'
           'sidebar footer';
-  overflow: hidden;
+  overflow-x: hidden;
 }

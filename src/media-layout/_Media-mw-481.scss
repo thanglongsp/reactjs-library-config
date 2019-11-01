@@ -1,0 +1,6 @@
+@import "../styles/variables/colors";
+@media (min-width: 481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .med-bound {
+    background: $Yellow;
+  }
+}
