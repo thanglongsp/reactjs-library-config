@@ -12,6 +12,7 @@ import {_Menu} from "../layouts/menu/_Menu";
 import {GridLayout} from "../grid-layout/GridLayout";
 import {BootstrapLayout} from "../bootstrap-layout/BootstrapLayout";
 import {MediaLayout} from "../media-layout/MediaLayout";
+import {Page1} from "../pages/pages1/Page1";
 
 export class Routes extends Component {
     render() {
@@ -43,6 +44,9 @@ export class Routes extends Component {
                     </Router>
                     <Router exact path="/media-layout">
                         <MediaLayout />
+                    </Router>
+                    <Router exact path="/page1">
+                        <Page1 />
                     </Router>
                 </Switch>
             </Router>
