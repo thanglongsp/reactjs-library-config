@@ -90,3 +90,8 @@ R
 "src/media-layout/_MediaLayout.scss,9\3\934856664411d2cb4c38b903f7a864cb0748712f
 O
 src/media-layout/MediaLayout.js,b\a\ba0631c26ca20057e2db91822cd61196b0ed7755
+D
+src/pages/_page.scss,6\c\6c3c2d794152eb90156f0bef10d9852d8134dfb5
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

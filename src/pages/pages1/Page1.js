@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Button} from "antd";
 
 export class Page1 extends Component {
 
@@ -17,7 +18,9 @@ export class Page1 extends Component {
             <div className="bound">
                 <div className="p1-bound">
                     <div id="p1-sidebar" />
-                    <div id="p1-content" onClick={this.changeClass}/>
+                    <div id="p1-content">
+                        <Button onClick={this.changeClass}>Menu</Button>
+                    </div>
                 </div>
             </div>
         );

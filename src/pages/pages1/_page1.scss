@@ -7,28 +7,31 @@
     flex-direction: row;
     div:first-child {
         //position: absolute;
+        display: block;
         width: 20vw;
         height: 100vh;
         //background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-        //transition: width 1s;
+        transition: .5s ease;
     }
     div:last-child {
         background: $Blue;
         height: 100vh;
         min-width: 80vw;
         background: rebeccapurple;
+        transition: .5s ease;
     }
 }
 
 .p1-sidebar-toggled {
     width: 0 !important;
-    transition: width 1s;
+    transition: .5s ease;
+
 }
 
 .p1-content-toggled {
     min-width: 100vw !important;
-    transition: width 1s;
+    transition: .5s ease;
 }
 //.p1-bound {
 //    margin-top: 40vh;
